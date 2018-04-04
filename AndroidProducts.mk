@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_bardockpro.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_bardockpro-userdebug \
+    lineage_bardockpro-eng
