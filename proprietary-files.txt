@@ -10,9 +10,9 @@ vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 
 # AptX
-vendor/lib/libaptXHD_encoder.so
-vendor/lib/libaptXScheduler.so
-vendor/lib/libaptX_encoder.so
+vendor/lib/libaptXHD_encoder.so:lib/libaptXHD_encoder.so
+vendor/lib/libaptXScheduler.so:lib/libaptXScheduler.so
+vendor/lib/libaptX_encoder.so:lib/libaptX_encoder.so
 
 # Audio
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
@@ -60,11 +60,11 @@ vendor/lib64/soundfx/libshoebox.so
 
 # Bluetooth
 bin/dun-server
-vendor/bin/btnvtool
-vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
 # Camera
 vendor/bin/mm-qcamera-daemon
