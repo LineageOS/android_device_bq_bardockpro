@@ -1074,7 +1074,6 @@ vendor/lib64/libsmemlog.so
 -app/embms/embms.apk
 etc/permissions/embms.xml
 framework/embmslibrary.jar:vendor/framework/embmslibrary.jar
-framework/qti-telephony-common.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/datastatusnotification/datastatusnotification.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1094,6 +1093,7 @@ etc/permissions/telephonyservice.xml
 -framework/qcrilhook.jar
 framework/QtiTelephonyServicelibrary.jar
 vendor/lib/libmdmdetect.so
+vendor/lib/liboemaids_vendor.so
 vendor/lib/libpdmapper.so
 vendor/lib/libpdnotifier.so
 vendor/lib/libqcrilFramework.so
@@ -1111,6 +1111,7 @@ vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
+vendor/lib64/liboemaids_vendor.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
 -vendor/lib64/libqmiservices.so
