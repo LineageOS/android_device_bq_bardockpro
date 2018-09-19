@@ -1074,7 +1074,7 @@ vendor/lib64/libsmemlog.so
 -app/embms/embms.apk
 etc/permissions/embms.xml
 framework/embmslibrary.jar:vendor/framework/embmslibrary.jar
-framework/qti-telephony-common.jar
+#framework/qti-telephony-common.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/datastatusnotification/datastatusnotification.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
