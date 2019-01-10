@@ -187,8 +187,6 @@ vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
-vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -1212,7 +1210,6 @@ etc/firmware/ice40.bin
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
-bin/sigma_dut
 vendor/bin/fstman
 vendor/bin/wcnss_service
 vendor/bin/cnss-daemon
