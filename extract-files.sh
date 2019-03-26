@@ -29,4 +29,4 @@ export VENDOR=bq
 
 MY_DIR=$(dirname $(readlink -f "${BASH_SOURCE[0]}"))
 
-${MY_DIR}/../msm8953-common/extract-files.sh "$@"
+${MY_DIR}/../msm8953-common/extract-files.sh "$DEVICE" "$@"
