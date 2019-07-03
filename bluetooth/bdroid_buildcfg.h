@@ -33,6 +33,6 @@
 /* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
 #define AVDT_NUM_SEPS 12
 
-/* Enable HFP WBS feature */
-#define BTIF_HF_CLIENT_WBS_INCLUDED TRUE
+/* Use WBS    */
+#define BTIF_HF_WBS_PREFERRED TRUE
 #endif
