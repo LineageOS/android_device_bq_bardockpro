@@ -15,3 +15,6 @@
 #
 
 $(call inherit-product, vendor/bq/bardockpro/bardockpro-vendor.mk)
+
+# setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
