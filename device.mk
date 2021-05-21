@@ -19,6 +19,10 @@ $(call inherit-product, vendor/bq/bardockpro/bardockpro-vendor.mk)
 # setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=192m \
     dalvik.vm.heapstartsize=16m \
