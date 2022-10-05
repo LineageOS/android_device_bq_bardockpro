@@ -19,7 +19,7 @@
 DEVICE_PATH := device/bq/bardockpro
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := bardock-pro,bardockpro
+TARGET_OTA_ASSERT_DEVICE := bardock-pro,bardock_pro,bardockpro
 
 # Kernel
 TARGET_KERNEL_CONFIG := bardock_defconfig
