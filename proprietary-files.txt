@@ -9,41 +9,42 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
 # Firmware
-etc/firmware/ilitek_i2c.bin
+etc/firmware/ilitek_i2c.bin:vendor/firmware/ilitek_i2c.bin
 
 # Fingerprint
-etc/firmware/fpchips64.b00
-etc/firmware/fpchips64.b01
-etc/firmware/fpchips64.b02
-etc/firmware/fpchips64.b03
-etc/firmware/fpchips64.b04
-etc/firmware/fpchips64.b05
-etc/firmware/fpchips64.b06
-etc/firmware/fpchips64.flist
-etc/firmware/fpchips64.mdt
-etc/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03
-etc/firmware/goodixfp.b04
-etc/firmware/goodixfp.b05
-etc/firmware/goodixfp.b06
-etc/firmware/goodixfp.mbn
-etc/firmware/goodixfp.mdt
-etc/firmware/sw_fp.b00
-etc/firmware/sw_fp.b01
-etc/firmware/sw_fp.b02
-etc/firmware/sw_fp.b03
-etc/firmware/sw_fp.b04
-etc/firmware/sw_fp.b05
-etc/firmware/sw_fp.b06
-etc/firmware/sw_fp.mdt
-lib64/libgf_ca.so
-lib64/libgf_hal.so
-lib64/libgoodixfingerprintd_binder.so
-lib64/hw/csfingerprint.default.so
-lib64/hw/fingerprint.default.so
-lib64/hw/swfingerprint.default.so
+etc/firmware/fpchips64.b00:vendor/firmware/fpchips64.b00:
+etc/firmware/fpchips64.b01:vendor/firmware/fpchips64.b01
+etc/firmware/fpchips64.b02:vendor/firmware/fpchips64.b02
+etc/firmware/fpchips64.b03:vendor/firmware/fpchips64.b03
+etc/firmware/fpchips64.b04:vendor/firmware/fpchips64.b04
+etc/firmware/fpchips64.b05:vendor/firmware/fpchips64.b05
+etc/firmware/fpchips64.b06:vendor/firmware/fpchips64.b06
+etc/firmware/fpchips64.flist:vendor/firmware/fpchips64.flist
+etc/firmware/fpchips64.mdt:vendor/firmware/fpchips64.mdt
+etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
+etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
+etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
+etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
+etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04
+etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05
+etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06
+etc/firmware/goodixfp.mbn:vendor/firmware/goodixfp.mbn
+etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
+etc/firmware/sw_fp.b00:vendor/firmware/sw_fp.b00
+etc/firmware/sw_fp.b01:vendor/firmware/sw_fp.b01
+etc/firmware/sw_fp.b02:vendor/firmware/sw_fp.b02
+etc/firmware/sw_fp.b03:vendor/firmware/sw_fp.b03
+etc/firmware/sw_fp.b04:vendor/firmware/sw_fp.b04
+etc/firmware/sw_fp.b05:vendor/firmware/sw_fp.b05
+etc/firmware/sw_fp.b06:vendor/firmware/sw_fp.b06
+etc/firmware/sw_fp.mdt:vendor/firmware/sw_fp.mdt
+lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so
+lib64/libkeystore_binder.so:vendor/lib64/libkeystore_binder.so
+lib64/hw/csfingerprint.default.so:vendor/lib64/hw/csfingerprint.default.so
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.default.so
+lib64/hw/swfingerprint.default.so:vendor/lib64/hw/swfingerprint.default.so
 
 # USB
-etc/firmware/ice40.bin
+etc/firmware/ice40.bin:vendor/firmware/ice40.bin
