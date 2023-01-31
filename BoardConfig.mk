@@ -27,5 +27,8 @@ TARGET_KERNEL_CONFIG := bardock_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 -include vendor/bq/bardockpro/BoardConfigVendor.mk

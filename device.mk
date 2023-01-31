@@ -30,7 +30,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=4m \
     dalvik.vm.heapmaxfree=8m
-
-# Bluetooth
-PRODUCT_PROPERTY_OVERRIDES += \
-    bluetooth.device.default_name=BQ Aquaris X Pro
